@@ -304,4 +304,85 @@
 }
 
 
-/* versione tablet */
+/* versione mobile */
+@media screen and (max-width:576px) {
+
+
+    .link{
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .link a {
+        padding: 10px 15px;
+    }
+
+
+    .dolce{
+        width: 90%;
+
+    }
+
+    .informazioni{
+        width: 90%;
+    }
+    
+
+    .text_plus{
+        display: none;
+    }
+
+
+    .info{
+        padding-left: 30px;
+    }
+
+    .lista {
+        display: flex;
+        gap: 3px;
+    }
+
+
+    .img img{
+        display: none;
+    }
+
+
+    .presentazione{
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 60px;
+
+    }
+
+
+    .presentazione img{
+        float: none;
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 10px;       
+    }
+
+    .menu{
+        font-size: 14px;
+    }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
